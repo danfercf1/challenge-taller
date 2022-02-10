@@ -1,5 +1,5 @@
 function squaredArray(object) {
-	let squaredArray = [];
+  let squaredArray = [];
   squaredArray = object.array.map(value => {
   	return value * value;
   });
