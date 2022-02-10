@@ -21,6 +21,6 @@ function changeMin(coins) {
   	return prev + current;
   }, 0);
   
-  if(equals) return sumMins + 2;
+  if (equals) return sumMins + 2;
   else return sumMins + 1;
 }
